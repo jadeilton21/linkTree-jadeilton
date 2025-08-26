@@ -1,5 +1,9 @@
 <ul class="LinksList">
+
+
+  @for(link of links; track link.url){
   <li>
-    <a href="https://www.linkedin.com/in/jadeilton-de-almeida-79b7b9236/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="{{ link.url}}" [target]="link.isExternal ? '_blank':'_self'">{{link.title}}</a>
   </li>
+}
 </ul>
