@@ -1,27 +1,65 @@
-# LinkTreeJadeilton
+# 🌐 Linktree Personalizado com Angular  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+![Preview](./LinkTree-jadeilton.png)  
 
-## Development server
+[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)  
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)  
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 📖 Sobre o Projeto  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este é um **Linktree customizado**, desenvolvido em **Angular**, com foco em praticar:  
+- Criação de componentes  
+- Estilização responsiva  
+- Ciclo de vida dos componentes (`OnInit` / `OnEntry`)  
 
-## Build
+O projeto centraliza meus principais links profissionais de forma simples e direta.  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🚀 Funcionalidades  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+✔️ Página única com design moderno e responsivo  
+✔️ Foto de perfil centralizada  
+✔️ Botões de redirecionamento para meus links principais:  
+   - **GitHub**  
+   - **LinkedIn**  
+   - **Contato**  
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🛠️ Tecnologias Utilizadas  
 
-## Further help
+- [Angular](https://angular.io/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- HTML5 / CSS3  
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## 📸 Demonstração  
+
+<p align="center">
+  <img src="./LinkTree-jadeilton.png" alt="Demonstração do projeto" width="500px">
+</p>  
+
+---
+
+## 📂 Como Executar  
+
+```bash
+# Clone este repositório
+git clone https://github.com/SEU-USUARIO/Linktree-Angular.git
+
+# Acesse a pasta do projeto
+cd Linktree-Angular
+
+# Instale as dependências
+npm install
+
+# Execute o servidor local
+ng serve
+
+# O app estará rodando em:
+http://localhost:4200/
